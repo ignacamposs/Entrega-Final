@@ -1,0 +1,34 @@
+@mixin heading-styles($size, $weight: bold) {
+  font-size: $size;
+  text-transform: uppercase;
+  font-weight: $weight;
+  color: $text-color;
+  margin: 1rem;
+}
+
+h1 {
+  @include heading-styles(40px);
+  text-align: center;
+}
+
+h2 {
+  @include heading-styles(30px);
+  text-align: center;
+}
+
+h3 {
+  @include heading-styles(20px);
+  text-align: center;
+}
+
+h4{
+  @include heading-styles(10px);
+  text-align: center;
+}
+
+p {
+  margin: 1rem 0;
+  color: $text-color;
+  font-size: 20px;
+  text-align: center;
+}

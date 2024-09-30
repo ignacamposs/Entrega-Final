@@ -1,0 +1,81 @@
+@media (min-width: 992px) {
+    .logo-img {
+      width: 1rem;
+    }
+  
+    h1 {
+      font-size: 6rem; /*96px*/
+    }
+
+    h2{
+      font-size: 4rem;
+    }
+
+    h4{
+      font-size: 1rem;
+
+    }
+  
+    p {
+      font-size: 27px;
+    }
+
+    .main {
+    padding: 20rem 0;
+    background-size: 100%;
+    background-image: url(../Images/twenty.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    }
+
+    .carousel-historia{
+      width: 50%;
+      margin: 0 auto;
+    }
+  
+    .carousel-historia2 {
+      width: 40%;
+      margin: 0 auto;
+    }
+
+    .fecha{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 5rem 0;
+    }
+  
+    .fecha h3 {
+      font-size: 3rem;
+      text-transform: uppercase;
+    }
+  
+    .button {
+      font-family: Arial;
+      color: #D53734;
+      font-size: 3rem;
+      padding: 20px;
+      text-decoration: none;
+      border-radius: 20px;
+      border: solid $button-border-color 2px;
+      background: $button-bg-color;
+  
+      &:hover {
+        background: $button-border-color;
+        transition: 0.3s ease-in-out;
+      }
+    }
+  
+    .footer {
+      display: flex;
+      justify-content: space-around;
+      margin: 2rem;
+  
+      .redes {
+        padding: 0 2rem;
+        font-size: 2rem;
+        display: flex;
+      }
+    }
+  }
+  
