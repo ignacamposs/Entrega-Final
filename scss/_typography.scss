@@ -1,4 +1,5 @@
 @mixin heading-styles($size, $weight: bold) {
+  box-sizing: border-box;
   font-size: $size;
   text-transform: uppercase;
   font-weight: $weight;

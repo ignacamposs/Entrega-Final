@@ -17,6 +17,7 @@ img {
 }
 
 h1 {
+  box-sizing: border-box;
   font-size: 40px;
   text-transform: uppercase;
   font-weight: bold;
@@ -26,6 +27,7 @@ h1 {
 }
 
 h2 {
+  box-sizing: border-box;
   font-size: 30px;
   text-transform: uppercase;
   font-weight: bold;
@@ -35,6 +37,7 @@ h2 {
 }
 
 h3 {
+  box-sizing: border-box;
   font-size: 20px;
   text-transform: uppercase;
   font-weight: bold;
@@ -44,6 +47,7 @@ h3 {
 }
 
 h4 {
+  box-sizing: border-box;
   font-size: 10px;
   text-transform: uppercase;
   font-weight: bold;
@@ -119,7 +123,7 @@ p {
 .footer .redes {
   display: flex;
   align-items: center;
-  padding: 0 4rem;
+  padding: 0 6rem;
   font-size: 2rem;
 }
 .footer .redes .youtube {
@@ -136,9 +140,53 @@ p {
   margin: 0 10px;
 }
 
+.navbar-personal {
+  box-sizing: border-box;
+  margin: 0.5rem;
+  padding: 0;
+}
+.navbar-personal .nav-logo {
+  background-color: #0A0F10;
+}
+
+.logo-img {
+  width: 20%;
+  margin: 1rem 0;
+}
+
+.link-personal {
+  color: #E9E11E;
+  margin: 0 4.5rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 23px;
+  font-weight: bold;
+  text-align: center;
+}
+.link-personal:hover {
+  color: #ff0000;
+  transition: 0.3s ease-in-out;
+}
+
+.main {
+  padding: 10rem 0;
+  width: auto;
+  height: 70vh;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../Images/twenty-mobile.jpg);
+  text-align: center;
+}
+
+.pic-adjust {
+  width: auto;
+  height: 20rem;
+  padding: 0 2rem;
+}
+
 @media (min-width: 992px) {
   .logo-img {
-    width: 1rem;
+    width: 7rem;
   }
   h1 {
     font-size: 6rem; /*96px*/
@@ -153,11 +201,24 @@ p {
     font-size: 27px;
   }
   .main {
-    padding: 20rem 0;
-    background-size: 100%;
+    padding: 18rem 0;
+    width: auto;
+    height: 100vh;
+    background-position: center;
     background-image: url(../Images/twenty.jpg);
-    background-repeat: no-repeat;
-    text-align: center;
+    background-size: cover;
+  }
+  .pic-adjust {
+    padding: 2rem 35rem;
+    height: 30rem;
+  }
+  .clancy-img {
+    height: 20rem;
+    width: auto;
+    padding: 0 23rem;
+  }
+  .link-personal {
+    font-size: 30px;
   }
   .carousel-historia {
     width: 50%;
@@ -201,33 +262,6 @@ p {
     font-size: 2rem;
     display: flex;
   }
-}
-.navbar-personal {
-  box-sizing: border-box;
-  margin: 1rem 0 0;
-  padding: 0;
-}
-.navbar-personal .nav-logo {
-  background-color: #0A0F10;
-}
-
-.logo-img {
-  width: 20%;
-  margin: 1rem 0;
-}
-
-.link-personal {
-  color: #E9E11E;
-  margin: 0 4.5rem;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-}
-.link-personal:hover {
-  color: #ff0000;
-  transition: 0.3s ease-in-out;
 }
 
 /*# sourceMappingURL=main.css.map */
