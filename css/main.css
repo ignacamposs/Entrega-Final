@@ -73,7 +73,7 @@ p {
   transition: all 1000ms;
   position: relative;
   overflow: hidden;
-  background-color: #11191A;
+  background-color: #72bcc6;
   font-weight: bold;
   letter-spacing: 5px;
   margin-bottom: 2rem;
@@ -184,6 +184,15 @@ p {
   padding: 0 2rem;
 }
 
+@media (min-width: 768px) {
+  .footer {
+    display: flex;
+    justify-content: space-around;
+  }
+  .pic-adjust {
+    padding: 0 12rem;
+  }
+}
 @media (min-width: 992px) {
   .logo-img {
     width: 7rem;
@@ -246,7 +255,7 @@ p {
     text-decoration: none;
     border-radius: 20px;
     border: solid #FDE421 2px;
-    background: #11191A;
+    background: #72bcc6;
   }
   .button:hover {
     background: #FDE421;
