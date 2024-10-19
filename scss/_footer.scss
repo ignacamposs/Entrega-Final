@@ -1,29 +1,28 @@
 .footer {
-    display: block;
-    text-align: center;
+  display: block;
+  text-align: center;
 
+  .redes {
+    display: flex;
+    align-items: center;
+    padding: 0 4.5rem ;
+    font-size: 2rem;
+
+    .youtube {
+      color: $accent-color;
+      margin: 0 10px;
+    }
   
-    .redes {
-      display: flex;
-      align-items: center;
-      padding: 0 6rem ;
-      font-size: 2rem;
-  
-      .youtube {
-        color: $accent-color;
-        margin: 0 10px;
-      }
-  
-      .twitter,
-      .instagram {
-        color: $text-color;
-        margin: 0 10px;
-      }
+    .twitter,
+    .instagram {
+      color: $text-color;
+       margin: 0 10px;
+    }
   
       .spotify {
         color: green;
         margin: 0 10px;
       }
     }
-  }
+}
   

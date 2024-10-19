@@ -9,7 +9,10 @@
 }
 
 .pic-adjust{
-        width: auto;
-        height: 20rem;
-        padding: 0 2rem;
+        display: block;
+        margin: 0 auto
+}
+
+.merch-adjust{
+        --bs-gutter-x: 1rem;
 }

@@ -10,88 +10,85 @@
 }
 
 @media (min-width: 992px) {
-    .logo-img {
-      width: 7rem;
-
-    }
+  .logo-img {
+    width: 5rem;
+  }
   
-    h1 {
-      font-size: 6rem; /*96px*/
-    }
+  h1 {
+    font-size: 6rem; /*96px*/
+  }
 
-    h2{
-      font-size: 4rem;
-    }
+  h2{
+    font-size: 4rem;
+  }
 
-    h4{
-      font-size: 1rem;
-      
-    }
+  h4{
+    font-size: 1rem;    
+  }
     
-    p {
-      font-size: 27px;
-    }
+  p{
+    font-size: 27px;
+  }
     
-    .main {
-      padding: 18rem 0;
-      width: auto;
-      height: 100vh;
-      background-position: center;
-      background-image: url(../Images/twenty.jpg);
-      background-size: cover;
-    }
+  .main {
+    padding: 18rem 0;
+    width: auto;
+    height: 100vh;
+    background-position: center;
+    background-image: url(../Images/twenty.jpg);
+    background-size: cover;
+  }
 
-    .pic-adjust{
-      padding: 2rem 35rem;
-      height: 30rem;
-    }
+  .pic-adjust{
+    padding: 2rem 35rem;
+    height: 30rem;
+  }
 
-    .clancy-img{
-      height: 20rem;
-      width: auto;
-      padding: 0 23rem;
-    }
+  .clancy-img{
+    height: 20rem;
+    width: auto;
+    padding: 0 23rem;
+  }
 
-    .link-personal{
-      font-size: 30px;
-    }
+  .link-personal{
+    font-size: 30px;
+  }
 
-    .carousel-historia{
-      width: 50%;
-      margin: 0 auto;
-    }
+  .carousel-historia{
+    width: 50%;
+    margin: 0 auto;
+  }
   
-    .carousel-historia2 {
-      width: 40%;
-      margin: 0 auto;
-    }
+  .carousel-historia2 {
+    width: 40%;
+    margin: 0 auto;
+  }
 
-    .fecha{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 5rem 0;
-    }
+  .fecha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0;
+  }
   
-    .fecha h3 {
-      font-size: 3rem;
-      text-transform: uppercase;
-    }
+  .fecha h3 {
+    font-size: 3rem;
+    text-transform: uppercase;
+  }
 
-  
-    .button {
-      font-family: Arial;
-      color: #D53734;
-      font-size: 3rem;
-      padding: 20px;
-      text-decoration: none;
-      border-radius: 20px;
-      border: solid $button-border-color 2px;
-      background: $button-bg-color;
-  
-      &:hover {
-        background: $button-border-color;
-        transition: 0.3s ease-in-out;
+  .button {
+    font-family: Arial;
+    color: #D53734;
+    font-size: 3rem;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    border: solid $button-border-color 2px;
+    background: $button-bg-color;
+    
+    &:hover {
+      background: $button-border-color;
+      transition: 0.3s ease-in-out;
       }
     }
   

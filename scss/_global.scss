@@ -1,17 +1,17 @@
 html {
-    box-sizing: border-box;
-    margin: 1rem;
-  }
+  box-sizing: border-box;
+  margin: 1rem;
+}
   
-  *, *::before, *::after {
-    box-sizing: inherit;
-  }
+*, *::before, *::after {
+  box-sizing: inherit;
+}
   
-  body {
-    background-color: $bg-color;
-    font-family: $font-family;
-  }
+body {
+  background-color: $bg-color;
+  font-family: $font-family;
+}
   
-  img{
-    width: 100%;
-  }
+img{
+  width: 100%;
+}
